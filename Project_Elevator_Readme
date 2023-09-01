@@ -1,0 +1,19 @@
+Elevator_Project
+
+This script is a small program that calculates and compares a distance that the elevator overcomes in 9 different scenarios.
+I have created this program to pass the project from the "Algorithms and Data Structure" subject at my University.
+
+Overall conditions:
+- In every scenario, the elevator runs 1000 times
+- The building has 11 floors (0 - 10) 
+- Every floor has a 2.8m height 
+
+Scenarios:
+I - The elevator stays on the floor where she ends up moving
+II - After every single ride the elevator returns to the 0 floor
+III - After every single ride the elevator returns to the 5th floor
+
+Every scenario has 3 different approaches:
+1. The first and last floor is randomly generated
+2. People go to work. 70 % of the elevator runs from above the 4th floor. The remaining 30% is from approach number 1 - it's randomly generated. 
+3. People return from work. 70 % of the elevator runs start from 0 floor. The remaining 30% is from approach number 1 - it's randomly generated. 
